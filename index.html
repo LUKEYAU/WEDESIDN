@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>等候畫面</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('cat.gif'); /* 替換成你的背景圖片 */
+            background-image: url('cat.gif');
             background-size: cover;
             background-position: center;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
         }
 
         #loading-text {
             color: white;
             font-size: 20px;
+            height: 350px;
+            width: 80%;
+            text-align: center;
+        }
+
+        #loading-text div {
+            margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
 <div id="loading-text">
-    系統當機，請稍候...
+    <div>系統當機，請稍候...</div>
+    <div>喵星人們玩得太過火了，不小心按到了一些奇怪的按鈕！我們的技術人員正在積極修復中，請您耐心等候，我們會讓貓咪們乖乖坐好！</div>
+
 </div>
 </body>
+
 </html>
